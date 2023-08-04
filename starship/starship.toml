@@ -1,0 +1,25 @@
+add_newline = false
+
+[character]
+success_symbol = ""
+error_symbol = ""
+
+[conda]
+format = '[\[$environment\]](black) '
+ignore_base = false
+style = "black"
+
+[python]
+symbol = " "
+version_format = "v${major}.${minor}"
+style = "green"
+
+[directory]
+style = "cyan bold"
+
+[aws]
+format = 'on [$profile:<$region>]($style) '
+style = 'bold green'
+
+[line_break]
+disabled = true
